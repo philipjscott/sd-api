@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -z $SD_JWT ]
+then
+  export SD_JWT=$(curl -s "$SD_INSTANCE/$SD_NAMESPACE/auth/token?api_token=$SD_ACCESS_TOKEN" | jq -r '.token')
+fi
+
+if [ ! -z $1 ]
+then
+    curl -s -H "Authorization: Bearer $SD_JWT" $SD_INSTANCE/$SD_NAMESPACE/$1 | jq '.'
+fi
