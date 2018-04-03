@@ -28,9 +28,11 @@ export SD_ACCESS_TOKEN=SECRET
 ### How to get a Screwdriver Access Token
 
 1. Go to "User Settings"
-2. Provide a name and description, then click "add"
 
 ![step1](https://raw.githubusercontent.com/ScottyFillups/sd-api/master/screenshots/step1.png)
+
+2. Provide a name and description, then click "add"
+
 ![step2](https://raw.githubusercontent.com/ScottyFillups/sd-api/master/screenshots/step2.png)
 
 # Usage
