@@ -25,6 +25,14 @@ export SD_ACCESS_TOKEN=SECRET
 
 `. sd-api` will set `$SD_JWT` so you won't need to fetch a JWT for each request.
 
+### How to get a Screwdriver Access Token
+
+1. Go to "User Settings"
+2. Provide a name and description, then click "add"
+
+![step1](https://raw.githubusercontent.com/ScottyFillups/sd-api/master/screenshots/step1.png)
+![step2](https://raw.githubusercontent.com/ScottyFillups/sd-api/master/screenshots/step2.png)
+
 # Usage
 
 `sd-api` only supports `/GET`s right now; it takes the URI as an argument. _Do not begin the URI with a /_
